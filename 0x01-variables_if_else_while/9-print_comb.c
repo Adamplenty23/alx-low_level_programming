@@ -13,6 +13,8 @@ int main(void)
 	for (single_digit = 0; single_digit <= 9; single_digit++)
 	{
 		putchar('0' + single_digit);
+		if (single_digit == 9)
+			break;
 		putchar(',');
 		putchar(' ');
 	}

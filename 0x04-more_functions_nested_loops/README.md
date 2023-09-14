@@ -1,0 +1,4 @@
+# 0x04-more_functions_nested_loops 
+
+* **THIS TASKS HELP US TO LEARN C FUNCTION MORE**
+* *10 MANDATORY TASKS AND 2 ADVANCED TASKS*

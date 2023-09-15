@@ -1,13 +1,15 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
 
-/* betty style doc for function main goes there */
 /**
- * main - Entry point
- * Return: Always 0 (Success)
+ * positive_or_negative - A function that checks for signs
+ *
+ * @i: the value to be checked
+ *
+ * Return: no return value
  */
+
 void positive_or_negative(int i)
 {
 

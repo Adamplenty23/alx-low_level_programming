@@ -13,15 +13,25 @@ int main(void)
 	for (num = 1; num <= 100; num++)
 	{
 		if (num % 5 == 0 && num % 3 == 0)
-			printf(" FizzBuzz ");
+		{
+			printf("FizzBuzz");
+			putchar(' ');
+		}
 		else if (num % 5 == 0)
-			printf(" Buzz ");
+		{
+			printf("Buzz");
+			putchar(' ');
+		}
 		else if (num % 3 == 0)
-			printf(" Fizz ");
-		if (num == 100)
-			printf(" Buzz");
+		{
+			printf("Fizz");
+			putchar(' ');
+		}
 		else
-			printf(" %d ", num);
+		{
+			printf("%d", num);
+			putchar(' ');
+		}
 	}
 	printf("\n");
 	return (0);

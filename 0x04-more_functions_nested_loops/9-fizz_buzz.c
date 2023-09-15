@@ -18,6 +18,8 @@ int main(void)
 			printf(" Buzz ");
 		else if (num % 3 == 0)
 			printf(" Fizz ");
+		if (num == 100)
+			printf(" Buzz");
 		else
 			printf(" %d ", num);
 	}

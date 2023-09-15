@@ -17,13 +17,13 @@ int main(void)
 			printf("FizzBuzz");
 			putchar(' ');
 		}
+		else if (num == 100)
+			printf("Buzz");
 		else if (num % 5 == 0)
 		{
 			printf("Buzz");
 			putchar(' ');
 		}
-		if (num == 100)
-			printf("Buzz");
 		else if (num % 3 == 0)
 		{
 			printf("Fizz");

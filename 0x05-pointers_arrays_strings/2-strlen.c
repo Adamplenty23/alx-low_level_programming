@@ -3,7 +3,7 @@
 /**
  * _strlen - a function that calculate the lenght of string
  *
- * @*s: pointer s
+ * @s: pointer s
  *
  * Return: the lenght of string
  */

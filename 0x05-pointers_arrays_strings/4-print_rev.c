@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _puts - the content of the string
+ * _puts: A function that mimmicks puts and the content of the string
  * we are told to mimmick _puts function
  *
  * @str: string to print in normal order

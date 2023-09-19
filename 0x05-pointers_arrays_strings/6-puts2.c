@@ -11,7 +11,9 @@
 
 void puts2(char *str)
 {
-	for (; *str != '\0'; str += 2) /*a loop condition to print the string*/
-		_putchar(*str);
+	int length = 0;
+
+	for (; str[length] != '\0'; length += 2) /*a loop condition to print the string*/
+		_putchar(str[length]);
 	_putchar('\n');
 }

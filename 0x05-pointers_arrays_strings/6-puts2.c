@@ -14,6 +14,10 @@ void puts2(char *str)
 	int length = 0;
 
 	for (; str[length] != '\0'; length += 2) /*a loop condition to print the string*/
+	{
 		_putchar(str[length]);
+		if (str[length] == '\0')
+			break;
+	}
 	_putchar('\n');
 }

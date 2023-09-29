@@ -1,4 +1,3 @@
-Task  100
 #include "main.h"
 
 int check_pal(char *s, int i, int len);
@@ -46,4 +45,3 @@ int check_pal(char *s, int i, int len)
 	return (1);
 	return (check_pal(s, i + 1, len - 1));
 }
-

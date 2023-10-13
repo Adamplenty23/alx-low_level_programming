@@ -1,9 +1,9 @@
 #include "variadic_functions.h"
 
 /**
- * print_numbers
+ * print_numbers - a variadic function that prints list of numbers
  *
- * @seperator: string between numbers
+ * @separator: string between numbers
  * @n:the number of integers
  *
  * Return: Nothing
@@ -22,6 +22,6 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		if (separator != NULL && i < n - 1)
 			printf("%s", separator);
 	}
-	va_end num_disp;
+	va_end(num_disp);
 	printf("\n");
 }

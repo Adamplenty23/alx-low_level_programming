@@ -1,10 +1,5 @@
 #include "lists.h"
 
-/**
-* _strlen - function that returns the length of a string.
-* @s: s is a character
-* Return: return count
-*/
 int _strlen(const char *s);
 
 /**
@@ -27,6 +22,11 @@ list_t *add_node(list_t **head, const char *str)
 	return (add);
 }
 
+/**
+* _strlen - function that returns the length of a string.
+* @s: s is a character
+* Return: return count
+*/
 int _strlen(const char *s)
 {
 	int count = 0;

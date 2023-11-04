@@ -9,7 +9,7 @@
  * Return: 1 on success, -1 on failure
  */
 
-int create_file(const char *filename, char *text_content);
+int create_file(const char *filename, char *text_content)
 {
 	int f_d;
 	ssize_t bytes_written;
@@ -22,7 +22,7 @@ int create_file(const char *filename, char *text_content);
 		return (-1);
 	if (text_content == NULL)
 		text_content = "";
-	for (count =0; text_content[count] != '\0'; count++)
+	for (count = 0; text_content[count] != '\0'; count++)
 		bytes_written = write(f_d, text_content, count);
 	if (byes_written == -1)
 		return (-1);

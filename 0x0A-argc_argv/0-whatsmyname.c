@@ -3,6 +3,7 @@
 /**
  * main - a program that prints its name
  *
+ * @argc: number of command line arguments.
  * @argv: array of the commands
  *
  * Return: 0 for success
